@@ -1,7 +1,7 @@
 .nav-section {
     display: flex;
-justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-logo {
@@ -10,11 +10,31 @@ align-items: center;
 }
 
 .nav-button {
-background-color:#FF571A ; 
-border: none;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
+    background-color: #FF571A;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+.hero-section {
+    background: url("./images/Hero-Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 300px;
+}
+
+.hero-title {
+    text-align: center;
+color:#FF571A ;
+}
+
+.hero-subtitle {
+    text-align: center;
+}
+
+.hero-description {
+    text-align: center;
+}
