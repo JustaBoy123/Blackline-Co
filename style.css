@@ -19,6 +19,7 @@
 }
 
 .hero-section {
+    text-align: center;
     background: url("./images/Hero-Image.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,13 +29,32 @@
 
 .hero-title {
     text-align: center;
-color:#FF571A ;
+    color: #FF571A;
 }
 
 .hero-subtitle {
     text-align: center;
+    font-size: 20px;
 }
 
 .hero-description {
     text-align: center;
+}
+
+.hero-button-one {
+background-color: #FF571A;
+border: none;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left:30px;
+padding-right: 30px;
+}
+
+.hero-button-two {
+background-color: transparent;
+border: 1px solid black;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left:30px;
+padding-right: 30px;
 }
