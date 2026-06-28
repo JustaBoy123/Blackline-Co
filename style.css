@@ -58,3 +58,31 @@ padding-bottom: 20px;
 padding-left:30px;
 padding-right: 30px;
 }
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 40px;
+
+}
+
+.color-text {
+    color: #FF571A;
+}
+
+.spotlight-section {
+    display: flex;
+    gap: 100px;
+}
+
+.spotlight-button {
+    border: 1px solid #FF571A;
+   background-color: transparent;
+padding-top:20px ;  
+padding-bottom: 20px;  
+padding-left: 40px;
+padding-right: 40px;
+}
+
