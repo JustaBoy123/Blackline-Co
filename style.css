@@ -42,21 +42,21 @@
 }
 
 .hero-button-one {
-background-color: #FF571A;
-border: none;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left:30px;
-padding-right: 30px;
+    background-color: #FF571A;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .hero-button-two {
-background-color: transparent;
-border: 1px solid black;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left:30px;
-padding-right: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .product-section {
@@ -79,10 +79,22 @@ padding-right: 30px;
 
 .spotlight-button {
     border: 1px solid #FF571A;
-   background-color: transparent;
-padding-top:20px ;  
-padding-bottom: 20px;  
-padding-left: 40px;
-padding-right: 40px;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+.features-section {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features-card {
+    width: 300px;
+    text-align: center;
+}
